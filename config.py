@@ -28,14 +28,12 @@ REQUIRE_VALIDITY_FOR_TTS = False
 MAX_TTS_CHARS = int(os.getenv("MAX_TTS_CHARS", "200"))
 
 DEFAULT_MODELS = [
-    {"id": "a5e5bbe15fb6465fb113c1bab4de8b2e", "name": "Marie"},
-    {"id": "89caeb03934840e791f7d13e9c03b6ef", "name": "Daisy"},
-    {"id": "e3fbe8fdb0ea40d8a15d527ab854b8af", "name": "Ayesha"},
-    {"id": "b8daf8f8981a484abb8cc9520641b5dc", "name": "Anna"},
+    {"id": "230c2ddcbfa14c0bbd3879f26662eb56", "name": "Sara"},
+    {"id": "c6733a704f2e41aab763e04685817d91", "name": "Mia Queen"},
+    {"id": "a14030b243bf41fd968c94cf1863e2b7", "name": "Evelyan"},
     {"id": "29913697e157485c941c737314c27819", "name": "Ruby"},
     {"id": "d75c78da679a4d8480e4bcfb6c60bdc6", "name": "Nora"},
-    {"id": "d39b35734b49454784d2dbcc17cd45b9", "name": "Denica"},
-    {"id": "c5e4c4c57a084a0f9b5b277d36546ef0", "name": "Even"},
+    
 ]
 
 USE_CONFIG_MODELS_ONLY = True
